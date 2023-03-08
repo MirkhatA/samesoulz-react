@@ -1,0 +1,18 @@
+.logo-title {
+    font-family: "ArchivoBlack";
+    font-size: 10;
+}
+
+* {
+    font-family: DMSans-Medium;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+img {
+    width: 80px;
+}

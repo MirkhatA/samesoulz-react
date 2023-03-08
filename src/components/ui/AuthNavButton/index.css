@@ -1,0 +1,20 @@
+.button {
+    border: 1px solid;
+    border-color: #706FD3;
+    border-width: 2px;
+    border-radius: 10px;
+
+    color: #706FD3;
+
+    width: 100%;
+    padding: 13px;
+    margin: 20px 0;
+}
+
+.button svg path {
+    stroke: #706FD3;
+}                   
+
+.button svg {
+    margin-right: 10px;
+}

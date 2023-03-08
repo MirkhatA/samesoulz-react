@@ -1,0 +1,27 @@
+.input {
+    border: 1px solid;
+    border-color: #E1E1E1;
+    border-width: 2px;
+    border-radius: 10px;
+
+    width: 100%;
+    padding: 13px;
+    margin: 5px 0;
+}
+
+.input svg path {
+    stroke: #E1E1E1;
+}
+
+.input svg {
+    margin-right: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1 {
+    font-family: "ArchivoBlack";
+    font-size: 30px;
+}

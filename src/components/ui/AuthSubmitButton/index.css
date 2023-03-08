@@ -1,0 +1,18 @@
+.auth-button-submit {
+    background: #706FD3;
+    color: #fff;
+
+    border: 1px solid;
+    border-color: #706FD3;
+    border-width: 2px;
+    border-radius: 10px;
+
+
+    width: 100%;
+    padding: 13px;
+    margin: 20px 0;
+}
+
+.icon {
+    transform: scale(1.5);
+}
