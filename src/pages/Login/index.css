@@ -13,6 +13,7 @@ h1 {
 
 .already-have-account {
     transition: 0.5s;
+    font-size: 13px;
 }
 
 .already-have-account:hover {

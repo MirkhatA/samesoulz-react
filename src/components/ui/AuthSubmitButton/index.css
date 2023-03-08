@@ -13,6 +13,6 @@
     margin: 20px 0;
 }
 
-.icon {
+.auth-button-submit .icon {
     transform: scale(1.5);
 }
