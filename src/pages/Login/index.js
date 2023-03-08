@@ -5,17 +5,21 @@ import AuthSubmitButton from "../../components/ui/AuthSubmitButton";
 
 export default function Login() {
     return (
-        <div className="m-auto max-w-sm h-screen">
-            <img src="/icons/logo_img.png" alt="logo_img" />
+        <div className="flex h-screen">
+            <div className="relative max-w-sm m-auto">
+                <div className="relative flex flex-col items-center">
+                    <img src="/icons/logo_img.png" className="smallIcon" alt="logo_img" />
+                </div>
 
-            <div className="h-screen m-auto relative flex flex-col">
-                <h1 className="mb-5">Login</h1>
+                <div className="login-form">
+                    <h1>Login</h1>
 
-                <form method="POST">
-                    <LoginInput>Username or email...</LoginInput>
-                    <LoginInput>Password...</LoginInput>
-                    <AuthSubmitButton>Submit</AuthSubmitButton>
-                </form>
+                    <form method="POST">
+                        <LoginInput>Username or email...</LoginInput>
+                        <LoginInput>Password...</LoginInput>
+                        <AuthSubmitButton>Submit</AuthSubmitButton>
+                    </form>
+                </div>
             </div>
         </div>
     );
