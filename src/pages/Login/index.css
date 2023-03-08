@@ -10,3 +10,11 @@ h1 {
 .login-form {
     width: 384px;
 }
+
+.already-have-account {
+    transition: 0.5s;
+}
+
+.already-have-account:hover {
+    color: #706fd3;
+}
